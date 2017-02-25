@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.25920.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionLogRunner", "FusionLogRunner\FusionLogRunner.csproj", "{935A4AD4-575F-4390-8E08-BA271B4A282B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionLogLib", "FusionLogLib\FusionLogLib.csproj", "{B885E213-CA87-48E7-A531-C3F6EED36B8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{935A4AD4-575F-4390-8E08-BA271B4A282B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{935A4AD4-575F-4390-8E08-BA271B4A282B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{935A4AD4-575F-4390-8E08-BA271B4A282B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B885E213-CA87-48E7-A531-C3F6EED36B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B885E213-CA87-48E7-A531-C3F6EED36B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B885E213-CA87-48E7-A531-C3F6EED36B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B885E213-CA87-48E7-A531-C3F6EED36B8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
