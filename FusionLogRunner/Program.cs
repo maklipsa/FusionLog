@@ -13,7 +13,9 @@ namespace FusionLogRunner
         static void Main(string[] args)
         {
             logger.Info("Started");
+            FusionLogLib.LibraryClass.SayHi();
             Console.ReadKey();
         }
     }
 }
+
