@@ -12,9 +12,16 @@ namespace FusionLogRunner
         private static Logger logger = NLog.LogManager.GetLogger("Console");
         static void Main(string[] args)
         {
-            logger.Info("Started");
-            FusionLogLib.LibraryClass.SayHi();
-            Console.ReadKey();
+            try
+            {
+                logger.Info("Started");
+                FusionLogLib.LibraryClass.SayHi();
+                Console.ReadKey();
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+            }
         }
     }
 }
